@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-labelledby="title">
+  <title id="title">金星示意图</title>
+  <defs>
+    <radialGradient id="surface" cx="30%" cy="28%" r="80%"><stop stop-color="#fae8bc"/><stop offset="1" stop-color="#b17d3f"/></radialGradient>
+    <clipPath id="disk"><circle cx="50" cy="50" r="41"/></clipPath>
+  </defs>
+  <circle cx="50" cy="50" r="41" fill="url(#surface)"/>
+  <g clip-path="url(#disk)" fill="none" stroke="#f7deb0" stroke-width="6" opacity=".65">
+    <path d="M7 32 Q38 12 66 31 T104 30"/><path d="M0 52 Q27 32 60 51 T105 48"/>
+    <path d="M3 74 Q27 56 58 71 T100 68"/>
+  </g>
+</svg>

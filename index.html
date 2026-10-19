@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>太阳系行星数据</title>
+</head>
+<body>
+  <h1>太阳系行星数据</h1>
+  <p>太阳系的八大行星，按距离太阳由近到远排列。点击行星名称，可阅读 NASA 的行星介绍。</p>
+
+  <h2>八大行星参数表</h2>
+  <!-- 按作业要求使用 HTML border 属性；颜色、字体等留待 CSS 阶段。 -->
+  <table border="2">
+    <caption>太阳系八大行星的分类、图片与主要参数</caption>
+    <thead>
+      <tr>
+        <th colspan="2" rowspan="2" scope="colgroup">行星分类</th>
+        <th rowspan="2" scope="col">行星名称</th>
+        <th rowspan="2" scope="col">行星图片</th>
+        <th colspan="5" scope="colgroup">物理参数</th>
+        <th colspan="2" scope="colgroup">轨道参数</th>
+        <th rowspan="2" scope="col">平均温度<br>（℃）</th>
+      </tr>
+      <tr>
+        <th scope="col">质量<br>（10<sup>24</sup> kg）</th>
+        <th scope="col">直径<br>（km）</th>
+        <th scope="col">密度<br>（kg/m<sup>3</sup>）</th>
+        <th scope="col">重力加速度<br>（m/s<sup>2</sup>）</th>
+        <th scope="col">自转周期<br>（小时）</th>
+        <th scope="col">距太阳平均距离<br>（10<sup>6</sup> km）</th>
+        <th scope="col">公转周期<br>（地球日）</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th colspan="2" rowspan="4" scope="rowgroup">类地行星</th>
+        <th scope="row"><a href="https://science.nasa.gov/mercury/">水星</a></th>
+        <td><img src="images/mercury.svg" alt="水星示意图：表面分布着陨石坑" width="80" height="80"></td>
+        <td>0.330</td><td>4,879</td><td>5,427</td><td>3.7</td><td>1,407.6</td><td>57.9</td><td>88.0</td><td>167</td>
+      </tr>
+      <tr>
+        <th scope="row"><a href="https://science.nasa.gov/venus/">金星</a></th>
+        <td><img src="images/venus.svg" alt="金星示意图：厚厚的云层包裹着星球" width="80" height="80"></td>
+        <td>4.87</td><td>12,104</td><td>5,243</td><td>8.9</td><td>−5,832.5</td><td>108.2</td><td>224.7</td><td>464</td>
+      </tr>
+      <tr>
+        <th scope="row"><a href="https://science.nasa.gov/earth/">地球</a></th>
+        <td><img src="images/earth.svg" alt="地球示意图：海洋、陆地和白色云层" width="80" height="80"></td>
+        <td>5.97</td><td>12,756</td><td>5,514</td><td>9.8</td><td>23.9</td><td>149.6</td><td>365.2</td><td>15</td>
+      </tr>
+      <tr>
+        <th scope="row"><a href="https://science.nasa.gov/mars/">火星</a></th>
+        <td><img src="images/mars.svg" alt="火星示意图：岩石表面与极地冰盖" width="80" height="80"></td>
+        <td>0.642</td><td>6,792</td><td>3,933</td><td>3.7</td><td>24.6</td><td>227.9</td><td>687.0</td><td>−65</td>
+      </tr>
+    </tbody>
+    <tbody>
+      <tr>
+        <th rowspan="4" scope="rowgroup">巨行星</th>
+        <th rowspan="2" scope="rowgroup">气态巨行星</th>
+        <th scope="row"><a href="https://science.nasa.gov/jupiter/">木星</a></th>
+        <td><img src="images/jupiter.svg" alt="木星示意图：条带状云层与大红斑" width="80" height="80"></td>
+        <td>1,898</td><td>142,984</td><td>1,326</td><td>23.1</td><td>9.9</td><td>778.6</td><td>4,331</td><td>−110</td>
+      </tr>
+      <tr>
+        <th scope="row"><a href="https://science.nasa.gov/saturn/">土星</a></th>
+        <td><img src="images/saturn.svg" alt="土星示意图：星球周围环绕着宽阔的行星环" width="80" height="80"></td>
+        <td>568</td><td>120,536</td><td>687</td><td>9.0</td><td>10.7</td><td>1,433.5</td><td>10,747</td><td>−140</td>
+      </tr>
+      <tr>
+        <th rowspan="2" scope="rowgroup">冰巨行星</th>
+        <th scope="row"><a href="https://science.nasa.gov/uranus/">天王星</a></th>
+        <td><img src="images/uranus.svg" alt="天王星示意图：淡蓝色星球与倾斜的细环" width="80" height="80"></td>
+        <td>86.8</td><td>51,118</td><td>1,271</td><td>8.7</td><td>−17.2</td><td>2,872.5</td><td>30,589</td><td>−195</td>
+      </tr>
+      <tr>
+        <th scope="row"><a href="https://science.nasa.gov/neptune/">海王星</a></th>
+        <td><img src="images/neptune.svg" alt="海王星示意图：蓝色星球上的云带和风暴" width="80" height="80"></td>
+        <td>102</td><td>49,528</td><td>1,638</td><td>11.0</td><td>16.1</td><td>4,495.1</td><td>59,800</td><td>−200</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td colspan="12">说明：参数为教学用近似值；图片为示意图，大小不代表行星的真实比例。</td>
+      </tr>
+    </tfoot>
+  </table>
+
+  <h2>数据阅读说明</h2>
+  <table border="1">
+    <caption>单位与数据口径</caption>
+    <tbody>
+      <tr><th scope="row">单位换算</th><td>质量一栏的数值需乘以 10<sup>24</sup> kg，距离一栏的数值需乘以 10<sup>6</sup> km；1 地球日为 24 小时。</td></tr>
+      <tr><th scope="row">直径</th><td>这里采用赤道直径，而非平均直径。</td></tr>
+      <tr><th scope="row">自转周期</th><td>这里采用相对恒星的自转周期。负号表示逆向自转，不表示时间小于零。</td></tr>
+      <tr><th scope="row">距离与温度</th><td>距离为轨道平均距离；温度为近似参考值，各行星的测量条件不同。</td></tr>
+      <tr><th scope="row">行星范围</th><td>本表列出八大行星；月球是地球的天然卫星，冥王星属于矮行星，均未列入。</td></tr>
+      <tr><th scope="row">数据参考</th><td><a href="https://nssdc.gsfc.nasa.gov/planetary/factsheet/">NASA Planetary Fact Sheet（行星数据表）</a>。本页采用常见教学近似值，未与该站点的最新版本逐项核对。</td></tr>
+    </tbody>
+  </table>
+
+  <h3>进一步阅读</h3>
+  <p><a href="https://science.nasa.gov/solar-system/planets/">NASA：认识太阳系的行星</a></p>
+</body>
+</html>

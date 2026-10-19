@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-labelledby="title">
+  <title id="title">木星示意图</title>
+  <defs>
+    <radialGradient id="surface" cx="30%" cy="28%" r="80%"><stop stop-color="#f4e3c9"/><stop offset="1" stop-color="#b08a69"/></radialGradient>
+    <clipPath id="disk"><circle cx="50" cy="50" r="41"/></clipPath>
+  </defs>
+  <circle cx="50" cy="50" r="41" fill="url(#surface)"/>
+  <g clip-path="url(#disk)" fill="none">
+    <path d="M7 28 Q50 36 93 28 M4 49 Q50 55 96 48 M8 73 Q50 82 92 73" stroke="#a96d4e" stroke-width="7"/>
+    <path d="M5 39 Q50 45 95 39 M7 63 Q50 68 93 61" stroke="#f7e9d4" stroke-width="6"/>
+    <ellipse cx="67" cy="60" rx="12" ry="7" fill="#b96648" stroke="#edd0a7" stroke-width="2"/>
+  </g>
+</svg>

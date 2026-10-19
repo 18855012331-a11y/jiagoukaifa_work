@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-labelledby="title">
+  <title id="title">天王星示意图</title>
+  <defs><radialGradient id="surface" cx="30%" cy="25%" r="80%"><stop stop-color="#c7efed"/><stop offset="1" stop-color="#62a6b1"/></radialGradient></defs>
+  <ellipse cx="50" cy="50" rx="20" ry="47" transform="rotate(22 50 50)" fill="none" stroke="#b0c8ca" stroke-width="2"/>
+  <circle cx="50" cy="50" r="33" fill="url(#surface)"/>
+  <path d="M31 17 Q57 6 67 30 T65 80" fill="none" stroke="#c9dddd" stroke-width="1.5"/>
+</svg>

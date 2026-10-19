@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-labelledby="title">
+  <title id="title">水星示意图</title>
+  <defs><radialGradient id="surface" cx="30%" cy="28%" r="75%"><stop stop-color="#cbc6be"/><stop offset="1" stop-color="#57534f"/></radialGradient></defs>
+  <circle cx="50" cy="50" r="41" fill="url(#surface)"/>
+  <g fill="#77716a" stroke="#c3bbb1" stroke-width="1.5">
+    <circle cx="34" cy="31" r="10"/><circle cx="64" cy="43" r="7"/><circle cx="39" cy="65" r="12"/>
+    <circle cx="67" cy="68" r="5"/><circle cx="54" cy="21" r="4"/><circle cx="21" cy="49" r="4"/>
+  </g>
+</svg>

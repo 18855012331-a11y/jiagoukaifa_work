@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-labelledby="title">
+  <title id="title">火星示意图</title>
+  <defs>
+    <radialGradient id="surface" cx="30%" cy="28%" r="80%"><stop stop-color="#e4a477"/><stop offset="1" stop-color="#8a3d29"/></radialGradient>
+    <clipPath id="disk"><circle cx="50" cy="50" r="41"/></clipPath>
+  </defs>
+  <circle cx="50" cy="50" r="41" fill="url(#surface)"/>
+  <g clip-path="url(#disk)">
+    <path d="M18 49 L35 39 43 49 63 45 77 57 66 65 48 60 33 66Z" fill="#984f37"/>
+    <path d="M30 13 Q50 4 70 14 L57 21 40 20Z" fill="#eee5d9"/>
+    <g fill="#a95c40" stroke="#d9956a"><circle cx="30" cy="31" r="6"/><circle cx="67" cy="73" r="9"/><circle cx="72" cy="34" r="4"/></g>
+  </g>
+</svg>

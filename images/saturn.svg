@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-labelledby="title">
+  <title id="title">土星示意图</title>
+  <defs><radialGradient id="surface" cx="30%" cy="25%" r="80%"><stop stop-color="#f4e4b5"/><stop offset="1" stop-color="#af9361"/></radialGradient></defs>
+  <g transform="rotate(-25 50 50)">
+    <ellipse cx="50" cy="50" rx="46" ry="17" fill="none" stroke="#c5b38e" stroke-width="8"/>
+    <circle cx="50" cy="50" r="28" fill="url(#surface)"/>
+    <path d="M24 40 Q50 46 76 40 M23 54 Q50 61 77 54" fill="none" stroke="#c2a776" stroke-width="4"/>
+    <path d="M4 50 A46 17 0 0 0 96 50" fill="none" stroke="#c5b38e" stroke-width="8"/>
+    <path d="M4 50 A46 17 0 0 0 96 50" fill="none" stroke="#f0e0bd" stroke-width="2"/>
+  </g>
+</svg>

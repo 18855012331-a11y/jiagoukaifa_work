@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-labelledby="title">
+  <title id="title">海王星示意图</title>
+  <defs>
+    <radialGradient id="surface" cx="30%" cy="28%" r="80%"><stop stop-color="#6eabe2"/><stop offset="1" stop-color="#264880"/></radialGradient>
+    <clipPath id="disk"><circle cx="50" cy="50" r="41"/></clipPath>
+  </defs>
+  <circle cx="50" cy="50" r="41" fill="url(#surface)"/>
+  <g clip-path="url(#disk)">
+    <path d="M7 35 Q50 41 93 32 M7 71 Q50 78 93 67" fill="none" stroke="#87b3e1" stroke-width="4" opacity=".65"/>
+    <ellipse cx="34" cy="55" rx="10" ry="5" fill="#2c5087"/>
+    <path d="M51 60 Q65 63 75 58" fill="none" stroke="#c1d9ef" stroke-width="2"/>
+  </g>
+</svg>
